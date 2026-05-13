@@ -1,9 +1,11 @@
 export const environment = {
   production: false,
-  authApiUrl: 'http://localhost:5000/api',
-  profileApiUrl: 'http://localhost:5001/api',
-  jobApiUrl: 'http://localhost:5003/api',
-  applicationApiUrl: 'http://localhost:5004/api',
-  interviewApiUrl: 'http://localhost:5005/api',
-  notificationApiUrl: 'http://localhost:5006/api'
+  // Centralized API Gateway URL — all microservices are routed through this
+  apiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  authApiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  profileApiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  jobApiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  applicationApiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  interviewApiUrl: 'https://hireconnect-api-gateway.onrender.com/api',
+  notificationApiUrl: 'https://hireconnect-api-gateway.onrender.com/api'
 };
